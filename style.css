@@ -5,7 +5,7 @@
 	width:200px;
 	height:32px;
 	z-index:1;
-	left: 34px;
+	left: 16%;
 	top: 6px;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	color: #FFF;
@@ -31,6 +31,7 @@
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffa76c), color-stop(1, #fc6500) );
 	background:-moz-linear-gradient( center top, #ffa76c 5%, #fc6500 100% );
 
+
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffa76c', endColorstr='#fc6500');
 	background-color:#ffa76c;
 	-moz-border-radius:6px;
@@ -40,12 +41,14 @@
 	display:inline-block;
 	color:#ffffff;
 	font-family:arial;
-	font-size:10px;
+	font-size:50%;
 	font-weight:bold;
 	padding:9px 24px;
 	text-decoration:none;
+	text-shadow:1px 1px 0px #000000;
 	position: absolute;
-	right: 10%;
+	right: 15%;
+	top: 10px;
 }.orangebutton:hover {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fc6500), color-stop(1, #ffa76c) );
 	background:-moz-linear-gradient( center top, #fc6500 5%, #ffa76c 100% );
@@ -64,6 +67,9 @@
 	box-shadow:inset 0px 1px 0px 0px #6b87bf;
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #507dde), color-stop(1, #163682) );
 	background:-moz-linear-gradient( center top, #507dde 5%, #163682 100% );
+
+
+
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#507dde', endColorstr='#163682');
 	background-color:#507dde;
 	-moz-border-radius:6px;
@@ -73,14 +79,14 @@
 	display:inline-block;
 	color:#ffffff;
 	font-family:arial;
-	font-size:10px;
+	font-size:50%;
 	font-weight:bold;
 	padding:9px 24px;
 	text-decoration:none;
 	text-shadow:1px 1px 0px #000000;
 	position: absolute;
-	right: 30%;
-	top: 0%;	
+	right: 21%;
+	top: 10px;
 }.bluebutton:hover {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #163682), color-stop(1, #507dde) );
 	background:-moz-linear-gradient( center top, #163682 5%, #507dde 100% );
