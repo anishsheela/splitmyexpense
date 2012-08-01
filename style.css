@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+#head{
+	background-image: url(images/bar.png);
+	background-repeat: repeat-x;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-position: 0px 0px;
+}
+#head_image{
+	left: 50px;	
+}
+
+/*orange button starts*/
+.orangebutton {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffa76c), color-stop(1, #fc6500) );
+	background:-moz-linear-gradient( center top, #ffa76c 5%, #fc6500 100% );
+
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffa76c', endColorstr='#fc6500');
+	background-color:#ffa76c;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #000000;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:10px;
+	font-weight:bold;
+	padding:9px 24px;
+	text-decoration:none;
+	position: absolute;
+	right: 10%;
+}.orangebutton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fc6500), color-stop(1, #ffa76c) );
+	background:-moz-linear-gradient( center top, #fc6500 5%, #ffa76c 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fc6500', endColorstr='#ffa76c');
+	background-color:#fc6500;
+}.orangebutton:active {
+	position:relative;
+	top:1px;
+}
+/*orange button endss*/
+
+/*blue button starts*/
+.bluebutton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #6b87bf;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #6b87bf;
+	box-shadow:inset 0px 1px 0px 0px #6b87bf;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #507dde), color-stop(1, #163682) );
+	background:-moz-linear-gradient( center top, #507dde 5%, #163682 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#507dde', endColorstr='#163682');
+	background-color:#507dde;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #000000;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:10px;
+	font-weight:bold;
+	padding:9px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #000000;
+	position: absolute;
+	right: 30%;
+	top: 0%;	
+}.bluebutton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #163682), color-stop(1, #507dde) );
+	background:-moz-linear-gradient( center top, #163682 5%, #507dde 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#163682', endColorstr='#507dde');
+	background-color:#163682;
+}.bluebutton:active {
+	position:relative;
+	top:1px;
+}
+/*blue button endss*/
