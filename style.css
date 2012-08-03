@@ -5,7 +5,7 @@
 	width:200px;
 	height:32px;
 	z-index:1;
-	left: 16%;
+	left: 178px;
 	top: 6px;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	color: #FFF;
@@ -98,7 +98,6 @@
 #footer{
 	height: 12px;
 	border: 0;
-	font:"Trebuchet MS", Arial, Helvetica, sans-serif;
 	box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);
 	bottom: 50px;
 	position: absolute;
@@ -106,6 +105,7 @@
 	width: 100%;
 }
 #footer_data{
+	font:"Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size:15px;
 	color:#666;
 	position:relative;
@@ -128,6 +128,13 @@
 	text-align:center;
 }
 #slideshow_header{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 50px;
+	font-weight:bold;
+	
 }
 #slideshow_header_desc{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 25px;
+	color:#CCC;
 }
