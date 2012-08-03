@@ -4,7 +4,7 @@
 	position:absolute;
 	width:200px;
 	height:32px;
-	z-index:1;
+	z-index:100;
 	left: 178px;
 	top: 6px;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -24,6 +24,7 @@
 	height: 100%;
 	width: 100%;
 	background-position: 0px 0px;
+	z-index:2;
 }
 
 /*orange button starts*/
@@ -99,7 +100,7 @@
 	height: 12px;
 	border: 0;
 	box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);
-	bottom: 50px;
+	bottom: 0px;
 	position: absolute;
 	left: 0px;
 	width: 100%;
@@ -137,4 +138,22 @@
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 25px;
 	color:#CCC;
+}
+#slideshow_show{
+}
+#signup_bar{
+	background-image: url(images/signup_bar.png);
+	background-repeat: repeat-x;
+	left: 0px;
+	top: 80%;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+#bbody{
+	position:absolute;
+	height:100%;
+	width:100%;
+	left:0px;
+	
 }
